@@ -8,7 +8,7 @@
     }
 ?>
 <!DOCTYPE html>
-
+<!-- -->
 <html>
 <head lang="es">
 	<meta charset="UTF-8">
@@ -44,7 +44,7 @@
 
 
 
-
+		
                     <?php
                         if (isset($_GET["m"])){
                             switch($_GET["m"]){
