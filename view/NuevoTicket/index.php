@@ -44,48 +44,43 @@
 				<h5 class="m-t-lg with-border">Ingresar informacion</h5>
 
         <div class="row">
-					<div class="col-lg-6">
+		<div class="col-lg-6">
 						<fieldset class="form-group">
 							<label class="form-label semibold" for="exampleInput">Categoria</label>
-              <select id="exampleSelect" class="form-control">
-								<option>Requerimiento</option>
-								<option>Sofware</option>
-								<option>Hadware</option>
-								<option>Problema</option>
-								<option>Garantia</option>
-                <option>Formacion</option>
-                <option>Capacitacion</option>
-                <option>Credenciales</option>
-                <option>Otros</option>
+             				 <select id="exampleSelect" class="form-control">
+							    <option>Hadware</option>	
+							    <option>Sofware</option>
+								<option>Seguridad</option>
+								<option>Otros</option>
 							</select>
-            </fieldset>
+						</fieldset>
 
-					</div>
-					<div class="col-lg-6">
+		</div>
+		<div class="col-lg-6">
 						<fieldset class="form-group">
 							<label class="form-label semibold" for="exampleInputEmail1">Titulo</label>
 							<input type="text" class="form-control" id="exampleInputEmail1" placeholder="Ingrese titulo" >
 						</fieldset>
-					</div>
+		</div>
 
-					<div class="col-lg-12">
+		<div class="col-lg-12">
 						<fieldset class="form-group">
-							<label class="form-label semibold" for="exampleInputPassword1">Descripcion</label>
-          <div class="summernote-theme-1" >
+						<label class="form-label semibold" for="exampleInputPassword1">Descripcion</label>
+        <div class="summernote-theme-1" >
 					    <textarea  id="tick_descrip" class="summernote" name="name">Hello</textarea>
 				  </div>
 						</fieldset>
 					</div>
 
-          <div class="col-lg-12">
+    	<div class="col-lg-12">
             <button type="button" class="btn btn-inline btn-primary">Guardar</button>
-          </div>
+        </div>
         
         </div><!--.row-->
 
 
       </div>
-    </div><!--.container-fluid-->
+	 </div><!--.container-fluid-->
 	</div><!--.page-content-->
 
     <?php require_once("../MainJs/js.php"); ?>
