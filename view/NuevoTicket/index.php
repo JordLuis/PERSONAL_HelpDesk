@@ -47,11 +47,8 @@
 		<div class="col-lg-6">
 						<fieldset class="form-group">
 							<label class="form-label semibold" for="exampleInput">Categoria</label>
-             				 <select id="exampleSelect" class="form-control">
-							    <option>Hadware</option>	
-							    <option>Sofware</option>
-								<option>Seguridad</option>
-								<option>Otros</option>
+             				 <select id="cat_id" class="form-control">
+							   
 							</select>
 						</fieldset>
 
@@ -67,7 +64,7 @@
 						<fieldset class="form-group">
 						<label class="form-label semibold" for="exampleInputPassword1">Descripcion</label>
         <div class="summernote-theme-1" >
-					    <textarea  id="tick_descrip" class="summernote" name="name">Hello</textarea>
+					    <textarea  id="tick_descrip" class="summernote" name="name"></textarea>
 				  </div>
 						</fieldset>
 					</div>
