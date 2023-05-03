@@ -14,3 +14,6 @@
     <link rel="stylesheet" href="../../public/css/main.css">
 	<link rel="stylesheet" href="../../public/css/lib/summernote/summernote.css"/>
 	<link rel="stylesheet" href="../../public/css/separate/pages/editor.min.css">
+
+	<link rel="stylesheet" href="../../public/css/lib/bootstrap-sweetalert/sweetalert.css">
+	<link rel="stylesheet" href="../../public/css/separate/vendor/sweet-alert-animation.min.css">
