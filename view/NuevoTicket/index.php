@@ -18,7 +18,6 @@
 
     <?php require_once("../MainNav/nav.php"); ?>
 
-
   <!--   Contenido -->
 	<div class="page-content">
 		<div class="container-fluid">
@@ -34,8 +33,7 @@
 						</div>
 					</div>
 				</div>
-			</header>
-	
+	</header>
       <div class="box-typical box-typical-padding">
 				<p>
 					Desde esta ventana podra generar ticket de HelpDesk para la empresa de auditoria.

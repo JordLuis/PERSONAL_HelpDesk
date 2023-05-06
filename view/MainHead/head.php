@@ -17,3 +17,6 @@
 
 	<link rel="stylesheet" href="../../public/css/lib/bootstrap-sweetalert/sweetalert.css">
 	<link rel="stylesheet" href="../../public/css/separate/vendor/sweet-alert-animation.min.css">
+
+	<link rel="stylesheet" hrefs="../../public/css/lib/datatables-net/datatables.min.css">
+	<link rel="stylesheet" hrefe="../public/css/separate/vendor/datatables-net.min.css">
