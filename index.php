@@ -43,13 +43,9 @@
                     </div>
                     <header class="sign-title" id="lbltitulo">Acceso Usuario</header>
 
-
-
-		
                     <?php
                         if (isset($_GET["m"])){
                             switch($_GET["m"]){
-                                
                                 
                                 case "1";
                                     ?>
@@ -57,8 +53,8 @@
                                             <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                                                 <span aria-hidden="true">×</span>
                                             </button>
-
-                                        El Usuario y/o Contraseña son incorrectos.
+                                             <i class="font-icon font-icon-Warning"></i>
+                                             El Usuario y/o Contraseña son incorrectos.
                                         </div>
                                     <?php
                                 break;
@@ -69,12 +65,12 @@
                                             <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                                                 <span aria-hidden="true">×</span>
                                             </button>
-
+                                            <i class="font-icon font-icon-Warning"></i>
                                         Los campos estan vacios.
                                         </div>
                                     <?php
-                                break;
-                            }
+                                break; 
+                        }
                         }
                     ?>
 
